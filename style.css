@@ -1,0 +1,32 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+h1 {
+    display: flex;
+    padding: 15px 10px 15px 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    
+    text-align: center;
+}
+
+input{
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    margin: 20px 0 10px 7px;
+    padding: 5ox;
+}
