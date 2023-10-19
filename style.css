@@ -7,8 +7,10 @@
 body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-
-    
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
 }
 
 h1 {
@@ -17,9 +19,10 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: #ffffff;
 }
 img{
-    
+    border-radius: 50%;
     text-align: center;
 }
 
@@ -27,6 +30,46 @@ input{
     justify-content: center;
     align-content: center;
     flex-direction: row;
-    margin: 20px 0 10px 7px;
-    padding: 5ox;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+input:nth-of-type(1) {
+    animation: 0.5s backInLeft;
+}
+input:nth-of-type(2) {
+    animation: 1s backInLeft;
+}
+
+.ligar:hover {
+    transform: scale(1.1);
+    background-color: yellow;
+    color: black;
+    transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.ligar:active {
+    transform: scale(1);
+    background-color: yellow;
+    color: black;
+    transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.desligar:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.desligar:active {
+    transform: scale(1);
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }

@@ -1,7 +1,7 @@
 # lampada
  projeto bem simples com js
 
- https://ggvictor.github.io/lampada/
+<a href="https://eliaxzen.github.io/lampada/">DEPLOY</a>
 
 
 
